@@ -1,3 +1,3 @@
-package constant
+package config
 
 const SECRET_JWT = "123"

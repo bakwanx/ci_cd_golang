@@ -1,7 +1,7 @@
 package route
 
 import (
-	"ci_cd/constant"
+	"ci_cd/config"
 	"ci_cd/controller"
 	m "ci_cd/middleware"
 
@@ -19,7 +19,7 @@ func New() *echo.Echo {
 	e.GET("/books/:id", controller.GetBookController)
 
 	eJwt := e.Group("")
-	eJwt.Use(mid.JWT([]byte(constant.SECRET_JWT)))
+	eJwt.Use(mid.JWT([]byte(config.SECRET_JWT)))
 	eJwt.GET("/users", controller.GetUsersController)
 	eJwt.GET("/users/:id", controller.GetUserController)
 	eJwt.PUT("/users/:id", controller.UpdateUserController)
