@@ -1,7 +1,7 @@
 package config
 
 import (
-	"ci_cd/model"
+	"ci_cd_golang/model"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

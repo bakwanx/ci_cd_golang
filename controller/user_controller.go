@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"ci_cd/config"
-	"ci_cd/middleware"
-	"ci_cd/model"
+	"ci_cd_golang/config"
+	"ci_cd_golang/middleware"
+	"ci_cd_golang/model"
 	"net/http"
 
 	"github.com/labstack/echo/v4"

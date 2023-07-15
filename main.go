@@ -1,8 +1,8 @@
 package main
 
 import (
-	"ci_cd/config"
-	"ci_cd/route"
+	"ci_cd_golang/config"
+	"ci_cd_golang/route"
 )
 
 func main() {

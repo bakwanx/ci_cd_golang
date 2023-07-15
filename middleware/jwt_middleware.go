@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"ci_cd/config"
+	"ci_cd_golang/config"
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"

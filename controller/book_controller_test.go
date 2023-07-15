@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"ci_cd/config"
-	m "ci_cd/model"
+	"ci_cd_golang/config"
+	m "ci_cd_golang/model"
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"

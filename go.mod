@@ -1,4 +1,4 @@
-module ci_cd
+module ci_cd_golang
 
 go 1.20
 

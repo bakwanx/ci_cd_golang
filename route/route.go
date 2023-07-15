@@ -1,9 +1,9 @@
 package route
 
 import (
-	"ci_cd/config"
-	"ci_cd/controller"
-	m "ci_cd/middleware"
+	"ci_cd_golang/config"
+	"ci_cd_golang/controller"
+	m "ci_cd_golang/middleware"
 
 	"github.com/labstack/echo/v4"
 	mid "github.com/labstack/echo/v4/middleware"
