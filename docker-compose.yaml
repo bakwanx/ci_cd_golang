@@ -4,4 +4,4 @@ services:
     image: adminer
     restart: always
     ports: # host:container
-      - 8081:8080
+      - 8080:8080
