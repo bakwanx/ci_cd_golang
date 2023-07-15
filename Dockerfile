@@ -22,6 +22,8 @@ ADD . /app
 ## executable of our Go program
 RUN go build -o main .
 
+EXPOSE 8080
+
 ## Our start command which kicks off
 ## our newly created binary executable
 CMD ["/app/main"]
