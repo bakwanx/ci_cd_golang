@@ -17,4 +17,4 @@ jobs:
           cd app
           git pull origin master
           go test -v ./..
-          docker-compose down && docker-compose up --remove-orphans --build -d 
+          docker-compose down && docker-compose up --build -d --remove-orphans

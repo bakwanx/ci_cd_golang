@@ -1,6 +1,7 @@
 services:
 
   app:
+    image: golang_container
     build: 
       context: .
       dockerfile: Dockerfile
