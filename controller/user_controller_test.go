@@ -107,7 +107,7 @@ func TestDeleteUserController(t *testing.T) {
 	c := e.NewContext(request, response)
 	c.SetPath("/users/:id")
 	c.SetParamNames("id")
-	c.SetParamValues("9")
+	c.SetParamValues("1")
 
 	if assert.NoError(t, DeleteUserController(c)) {
 		assert.Equal(t, http.StatusOK, response.Code)
