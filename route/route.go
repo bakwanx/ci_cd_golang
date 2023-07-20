@@ -20,7 +20,7 @@ func New() *echo.Echo {
 
 	eJwt := e.Group("")
 	eJwt.Use(mid.JWT([]byte(config.SECRET_JWT)))
-	eJwt.GET("/users", controller.GetUsersController)
+	e.GET("/users", controller.GetUsersController)
 	eJwt.GET("/users/:id", controller.GetUserController)
 	eJwt.PUT("/users/:id", controller.UpdateUserController)
 	eJwt.DELETE("/users/:id", controller.DeleteUserController)
